@@ -70,3 +70,7 @@ Sources/MacStats/
   所以即使 Command Line Tools 更新不完整（`swift build` 失敗、預設 SDK 與編譯器版本不符）也能編譯。
 - 自動啟動是透過 `~/Library/LaunchAgents/com.maxhsiao.MacStats.plist`，沒有設定 KeepAlive，手動結束後不會被系統重開。
   macOS 可能會跳出「已加入背景項目」的通知，屬於正常現象，可在「系統設定 → 一般 → 登入項目」中管理。
+
+## 授權
+
+[MIT License](LICENSE)
